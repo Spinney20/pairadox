@@ -1,0 +1,15 @@
+---------------------------------------------------------------------
+STANI & SVAI + DOBRE LA CE NU IESE (nu dati push pe main va rog !)
+---------------------------------------------------------------------
+
+- DE ADAUGAT INCA 2 SECTIUNI IN MENIU (SI AUTOMAT INCA 2 PAGINI - MOMENTAN GOALE, DAR NEAPARAT CU ACELASI DESIGN). CELE 2 SECTIUNI TRB SA FIE ,,TRAIN MODEL" SI "REPORTS".
+- De adaugat logo-urile specifice in bara de meniu din /frontend/src/assets pentru fiecare sectiune din meniu pt imbunatatirea visual experience-ului
+- De adaugat un switch in dreapta sus pt limba RO/EN/FR in functie de ce preferinta are utlizatorul tot textul din program trb sa basculeze intre ro en fr, momentan e pe EN, default sa ramana pe EN
+- DE FACUT NIGHT/DAY FUNCTIONAL, INCLUSIV ALT BACKGROUND PENTRU DAY, DEFAULT UL VA TREBUI SA RAMANA PE NIGHT
+
+---------------------------------------------------------------------
+DOBRE
+---------------------------------------------------------------------
+
+- De adaugat ceva in care sa salvez local nomenclatorul si sa nu mai il incarc de fiecare data si algoritmul din pyhton sa citeasca direct din local
+- De facut sectiune pt predictii si confidente in care sa dau scroll local, pentru ca in cazul in care sunt prea multe produse pagina se extinde in jos si pie ul nu mai e vizibil

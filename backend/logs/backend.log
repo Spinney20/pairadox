@@ -1,0 +1,63 @@
+Starting backend with sys.executable: /usr/bin/python3
+Python version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+Current directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+Script directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+Data directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data
+Nomenclature file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx
+Sales file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+Loading nomenclature from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx and sales from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+Nomenclature loaded successfully with 267 rows
+Sales loaded successfully with 530 rows
+Nomenclature columns: ['ARTICLE_CODE_CUG', 'ARTICLE_NAME', 'anonimizare', 'Brand', 'MARKET_CODE', 'MARKET_NAME', 'SEGMENT_CODE', 'SEGMENT_NAME', 'CATEGORY_CODE', 'CATEGORY_NAME', 'FAMILY_CODE', 'FAMILY_NAME', 'Alimentar_NON_Alimentar', 'nomenclature_start_date', 'rank', 'univers', 'univers_hr', 'meserie', 'MARKETING', 'Sector', 'CATEGORY_MARKET', 'Departament', 'perimetru', 'perimetru_segm', 'STATUT_ARTICOL', 'MARKETING_MGART', 'product_type1', 'product_type2', 'Tipologie_Prod', 'Tip_Produs']
+Sales columns: ['site_id', 'product_id', 'sales_date', 'cattc', 'q', 'Price per articol', 'Quarter']
+Using price column: Price per articol
+Successfully processed 265 products
+Nomenclator + sales încărcate de pe disc.
+Started server process [1073]
+Waiting for application startup.
+Application startup complete.
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [1073]
+Starting backend with sys.executable: /usr/bin/python3
+Python version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+Current directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+Script directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+Data directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data
+Nomenclature file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx
+Sales file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+Loading nomenclature from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx and sales from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+Nomenclature loaded successfully with 267 rows
+Sales loaded successfully with 530 rows
+Nomenclature columns: ['ARTICLE_CODE_CUG', 'ARTICLE_NAME', 'anonimizare', 'Brand', 'MARKET_CODE', 'MARKET_NAME', 'SEGMENT_CODE', 'SEGMENT_NAME', 'CATEGORY_CODE', 'CATEGORY_NAME', 'FAMILY_CODE', 'FAMILY_NAME', 'Alimentar_NON_Alimentar', 'nomenclature_start_date', 'rank', 'univers', 'univers_hr', 'meserie', 'MARKETING', 'Sector', 'CATEGORY_MARKET', 'Departament', 'perimetru', 'perimetru_segm', 'STATUT_ARTICOL', 'MARKETING_MGART', 'product_type1', 'product_type2', 'Tipologie_Prod', 'Tip_Produs']
+Sales columns: ['site_id', 'product_id', 'sales_date', 'cattc', 'q', 'Price per articol', 'Quarter']
+Using price column: Price per articol
+Successfully processed 265 products
+Nomenclator + sales încărcate de pe disc.
+Started server process [1382]
+Waiting for application startup.
+Application startup complete.
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [1382]
+2025-05-13 16:29:54,434 - pairadox.backend - INFO - Starting backend with sys.executable: /usr/bin/python3
+2025-05-13 16:29:54,435 - pairadox.backend - INFO - Python version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]
+2025-05-13 16:29:54,435 - pairadox.backend - INFO - Current directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+2025-05-13 16:29:54,436 - pairadox.backend - INFO - Script directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend
+2025-05-13 16:29:54,436 - pairadox.backend - INFO - Python path: ['.', '/usr/bin', '/usr/lib/python310.zip', '/usr/lib/python3.10', '/usr/lib/python3.10/lib-dynload', '/home/andrei/.local/lib/python3.10/site-packages', '/usr/local/lib/python3.10/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.10/dist-packages']
+2025-05-13 16:29:54,436 - pairadox.backend - INFO - Pandas version: 2.2.3
+2025-05-13 16:29:54,437 - pairadox.backend - INFO - FastAPI version: 0.115.11
+2025-05-13 16:29:54,437 - pairadox.backend - INFO - Uvicorn version: 0.15.0
+2025-05-13 16:29:54,441 - pairadox.backend - INFO - Data directory: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data
+2025-05-13 16:29:54,441 - pairadox.backend - INFO - Nomenclature file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx
+2025-05-13 16:29:54,442 - pairadox.backend - INFO - Sales file path: /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+2025-05-13 16:29:54,445 - pairadox.backend - INFO - Loading nomenclature from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/nomenclature.xlsx and sales from /mnt/c/Users/Andrei Teodor Dobre/Desktop/Facultate/AN2.1/SubstitutableProducts/backend/data/sales.xlsx
+2025-05-13 16:29:54,581 - pairadox.backend - INFO - Nomenclature loaded successfully with 267 rows
+2025-05-13 16:29:54,611 - pairadox.backend - INFO - Sales loaded successfully with 530 rows
+2025-05-13 16:29:54,612 - pairadox.backend - INFO - Nomenclature columns: ['ARTICLE_CODE_CUG', 'ARTICLE_NAME', 'anonimizare', 'Brand', 'MARKET_CODE', 'MARKET_NAME', 'SEGMENT_CODE', 'SEGMENT_NAME', 'CATEGORY_CODE', 'CATEGORY_NAME', 'FAMILY_CODE', 'FAMILY_NAME', 'Alimentar_NON_Alimentar', 'nomenclature_start_date', 'rank', 'univers', 'univers_hr', 'meserie', 'MARKETING', 'Sector', 'CATEGORY_MARKET', 'Departament', 'perimetru', 'perimetru_segm', 'STATUT_ARTICOL', 'MARKETING_MGART', 'product_type1', 'product_type2', 'Tipologie_Prod', 'Tip_Produs']
+2025-05-13 16:29:54,613 - pairadox.backend - INFO - Sales columns: ['site_id', 'product_id', 'sales_date', 'cattc', 'q', 'Price per articol', 'Quarter']
+2025-05-13 16:29:54,613 - pairadox.backend - INFO - Using price column: Price per articol
+2025-05-13 16:29:54,626 - pairadox.backend - INFO - Successfully processed 265 products
+2025-05-13 16:29:54,628 - pairadox.backend - INFO - Nomenclator + sales încărcate de pe disc.

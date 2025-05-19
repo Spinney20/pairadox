@@ -1,0 +1,140 @@
+{
+  "name": "pairadox-ai",
+  "private": true,
+  "version": "1.2.7",
+  "main": "electron.cjs",
+  "type": "module",
+  "description": "Application for identifying substitute products",
+  "author": {
+    "name": "Andrei Teodor Dobre"
+  },
+  "scripts": {
+    "electron:dev": "cross-env NODE_ENV=development npm run build && electron .",
+    "dev:icon": "cross-env NODE_ENV=development npm run build && node dev.cjs",
+    "setup-python": "node setup-python-env.cjs",
+    "dist": "npm run setup-python && npm run build && electron-builder",
+    "dist:win": "npm run setup-python && npm run build && electron-builder --win",
+    "dist:mac": "npm run setup-python && npm run build && electron-builder --mac",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.10.7",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
+    "axios": "^1.8.4",
+    "electron-prompt": "^1.7.0",
+    "framer-motion": "^12.5.0",
+    "hi-base32": "^0.5.1",
+    "lucide-react": "^0.487.0",
+    "node-machine-id": "^1.1.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.1",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "electron": "^35.0.3",
+    "electron-builder": "^24.9.1",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "rcedit": "^4.0.1",
+    "vite": "^6.2.0"
+  },
+  "build": {
+    "productName": "Pairadox.AI",
+    "executableName": "PairadoxAI",
+    "icon": "build/icon.ico",
+    "artifactName": "${productName} Setup ${version}.${ext}",
+    "asarUnpack": [
+      "backend/**",
+      "python/**"
+    ],
+    "files": [
+      "dist/**/*",
+      "electron.cjs",
+      "startup-checker.cjs"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend",
+        "to": "backend",
+        "filter": [
+          "**/*",
+          "!**/__pycache__/**"
+        ]
+      },
+      {
+        "from": "python-env",
+        "to": "python",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "public",
+        "to": "public"
+      }
+    ],
+    "afterPack": "scripts/force-icon.cjs",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "${productName} Setup ${version}.${ext}",
+      "signingHashAlgorithms": null,
+      "signAndEditExecutable": false,
+      "legalTrademarks": "Pairadox.AI",
+      "publisherName": "Andrei Teodor Dobre",
+      "verifyUpdateCodeSignature": false,
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "icon": "build/icon.icns",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.business"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "build/icon.ico",
+      "installerHeaderIcon": "build/icon.ico",
+      "uninstallerIcon": "build/uninstallerIcon.ico",
+      "createDesktopShortcut": true,
+      "shortcutName": "Pairadox.AI",
+      "menuCategory": "Pairadox.AI",
+      "deleteAppDataOnUninstall": true,
+      "displayLanguageSelector": true,
+      "include": "installer.nsh"
+    }
+  }
+}
