@@ -28,7 +28,7 @@
     "@mui/material": "^6.4.8",
     "axios": "^1.8.4",
     "electron-prompt": "^1.7.0",
-    "framer-motion": "^12.5.0",
+    "framer-motion": "^12.12.1",
     "hi-base32": "^0.5.1",
     "lucide-react": "^0.487.0",
     "node-machine-id": "^1.1.12",
